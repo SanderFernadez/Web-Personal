@@ -502,12 +502,17 @@ a .Linkeding p {
 
 /* Avatar Para pantallas más grandes */
 @media (min-width: 1080px) {
-    .avatar {
-        max-width: 450px;
-        margin-left: 42%;
-        margin-top: -17%;
-
+    .general img {
+        position: absolute;
+        width: 355px;
+        height: 355px;
+        border-radius: 50%;
+        filter: sepia(0.8);
+        margin-left: -133px;
+        
+    
     }
+    
 }
 
 /* Avatar Para laptops o pantallas medianas */
@@ -555,6 +560,7 @@ a .Linkeding p {
     .contenido iframe {
         width: 700px;
         height: 100%;
+        position: absolute;
     }
 
     .description {
