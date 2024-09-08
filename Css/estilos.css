@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #0e1216;
+    /*background-image: url('https://fondosmil.co/fondo/55329.jpg');*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: initial;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    height: 50px;
+    width: 1030px;
+    padding-bottom: 10px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    font-weight: bold;
+    
+    border-radius: 10px;
+    margin-left: -150px;
+    top: 100px;
+    bottom: 100px;
+    position: absolute;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: #ffffff;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    color: rgb(241, 235, 235);
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px;
+
+}
+
+a:hover {
+    color: #cb5151;
+
+}
+
+.general .menu-section{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    margin-left: -200px;
+    margin-top: -250px;
+}
+
+.general .Title-Seccion  .menu-section-2{
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    margin-left: -10px;
+    margin-top: -100px;
+}
+
+.circulo-perfil {
+    background-color: rgb(226, 217, 217);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    right: 63.9%;
+    top: 9%;
+    animation:  boxShadowChange 2s linear infinite; /* Aplica ambas animaciones */
+}
+
+
+
+@keyframes boxShadowChange {
+    0% {
+        box-shadow: 0 0 10px 10px rgb(232, 0, 0); /* Rojo inicial */
+    }
+    25% {
+        box-shadow: 0 0 10px 13px rgb(255, 165, 0); /* Naranja */
+    }
+    50% {
+        box-shadow: 0 0 10px 16px rgb(255, 255, 0); /* Amarillo */
+    }
+    75% {
+        box-shadow: 0 0 10px 19px rgb(255, 165, 0); /* Naranja */
+    }
+    100% {
+        box-shadow: 0 0 10px 10px rgb(232, 0, 0); /* Rojo inicial */
+    }
+}
+
+
+.general  img
+{
+position:absolute;
+    width: 355px;
+    height: 355px;
+    border-radius: 50%;
+    filter: sepia(0.8);
+    margin-left: -133px;
+    
+    
+    }
+
+.general{
+    background-color: #0e1216; /* Color de fondo para la "hoja" */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 250px;
+    width: 800px;
+    left: 16vh;
+    max-width: 1000px;
+    height: 300vh;
+    margin: 20px;
+    position: absolute;
+    box-shadow: 0px 0 50px 10px rgba(27, 27, 27); /* Sombra para darle el efecto de "hoja" */
+}
+
+.Nombre{
+    height: 100px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 8%;
+}
+.Nombre h2{
+    font-size: 35px;
+    color: rgb(249, 241, 241);
+}
+
+.texto {
+    
+    margin-left: 10%;
+    color: gray;
+    position: absolute;
+    width: 500px;
+    margin-top: 15px;
+    height: 250px;
+    margin-left: 400px;
+
+}
+
+.separetor hr {
+
+    border-top: 1px solid rgba(247, 127, 121, 0.2); /* Ajustar el grosor y el color */
+    margin: 350px auto; /* Centrando el divisor y ajustando el espacio superior e inferior */
+    width: 1299px; /* Ajustar el ancho del divisor */
+    margin-left:  -250px;
+    border-color: rgba(247, 127, 121, 0.2);
+}
+
+.separetor-2 hr {
+
+    border-top: 1px solid rgba(247, 127, 121, 0.2); /* Ajustar el grosor y el color */
+    margin: 280px auto; 
+    width: 1299px; 
+    margin-left:  -250px;
+    border-color: rgba(247, 127, 121, 0.2);
+    margin-top: 700px;
+
+}
+
+.separetor-3 hr {
+
+    border-top: 1px solid rgba(247, 127, 121, 0.2); /* Ajustar el grosor y el color */
+    margin: 280px auto; 
+    width: 1299px; 
+    margin-left:  -250px;
+    border-color: rgba(247, 127, 121, 0.2);
+    margin-top: 700px;
+
+}
+
+.Title-Seccion {
+color: #faefef;
+/*background-color: #cb5151;*/
+position: absolute;
+margin-top: -280px;
+margin-left: -160px;
+font-size: 40px;
+
+}
+
+.Title-Seccion-2 {
+    color: #faefef;
+    /*background-color: #cb5151;*/
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -160px;
+    font-size: 40px;
+    
+    }
+    
+
+.Hobbies-Cards:nth-child(2){
+
+    background-color: rgba(252, 250, 250, 0.2);
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    position:absolute;
+    margin: 100px;
+    margin-left: 20%;
+    margin-top: -10%;
+
+}
+
+.Hobbies-Cards:nth-child(3){
+
+    background-color: #e95682;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    position:absolute;
+    margin: 100px;
+    margin-left: -12%;
+    margin-top: -10%;
+    resize: none;
+
+}
+
+.Hobbies-Cards:nth-child(3):hover,
+.Hobbies-Cards:nth-child(2):hover,
+.Hobbies-Cards:nth-child(4):hover 
+{
+    transform: scale(1.5);
+    box-shadow: 0px 0 20px 0px rgb(212, 163, 163); /* Sombra para darle el efecto de "hoja" */
+    cursor: pointer;
+}
+
+.Hobbies-Cards:nth-child(4){
+
+  
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    position:absolute;
+    margin: 100px;
+    margin-left: 50%;
+    margin-top: -10%;
+
+}
+
+.Hobbies-Cards .titulo-card {
+    background-color: #5c5a5a;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añade una transición suave */
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10.5px;
+}
+
+
+
+.Hobbies-Cards  .imagen-card{
+    background-image: url('https://image.cdn2.seaart.ai/2024-06-12/cpkr30te878c73aesk0g-2/e6be5c8822a31ecfb01462794aaea86d_high.webp');
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+}
+
+
+.Hobbies-Cards .titulo-card-2 {
+    background-color: transparent;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10.5px;
+}
+
+
+
+.Hobbies-Cards .imagen-card-2{
+    background-image: url('https://s0.smartresize.com/wallpaper/757/791/HD-wallpaper-code-programming-it-technology-thumbnail.jpg');
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+}
+
+.Hobbies-Cards .titulo-card-3 {
+    background-color: #5988B6;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10.5px;
+}
+
+
+
+.Hobbies-Cards .imagen-card-3{
+    background-image: url('https://i.pinimg.com/236x/ce/7c/38/ce7c387b29574b1bdcdb323446468ff4.jpg');
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+}
+
+.redes{
+    
+    width: 700px;
+    height: 200px;
+    gap: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes i{
+    
+    font-size: 200px;
+    justify-content: space-between;
+    
+}
+
+ a .Linkeding p {
+    font-size: 100px;
+    bottom: 330px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 230px;
+    bottom: 150px;
+    position: relative;
+
+}
+
+ .facebook p{
+    font-size: 100px;
+    bottom: 330px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 230px;
+    bottom: 150px;
+    position: relative;
+    
+}
+
+ .github p {
+    font-size: 100px;
+    bottom: 330px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 230px;
+    bottom: 150px;
+    position: relative;
+    
+}
+
+.face:hover, .link:hover, .git:hover{
+    
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 0 20px 0px rgb(212, 163, 163); /* Sombra para darle el efecto de "hoja" */
+    
+}
+
+.redes a .link{
+    
+    width: 700px;
+    height: 200px;
+}
+
+.redes .git{
+   
+    width: 700px;
+    height: 200px;
+}
+
+.redes .face{
+    
+    position: relative;
+    width: 700px;
+    height: 200px;
+}
+
+.contenido{
+    background-color: #6fa1cd;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    left: 100px;
+    bottom: 50px;
+}
+.contenido iframe{
+    width: 700px;
+    height: 100%;
+}
+
+.description{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin-left: 500px;
+    bottom: 50px ;
+    
+
+}
+
+.description .sinopsis {
+    color: #e20b0b;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 50px;
+
+
+
+}
+.sinopsis h2{
+    font-size: 40px;
+    margin-top: -35px;
+}
+
+
+.texto-2{
+
+    margin-left: 6%;
+    color: gray;
+    position: absolute;
+    width: 450px;
+    margin-top: 80px;
+    height: 170px;
+    
+
+}
+.texto-2 p {
+    margin-right: 50px;
+}
+
+.description:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 0 20px 0px rgb(212, 163, 163); /* Sombra para darle el efecto de "hoja" */
+}
+
+
+/* Avatar Para pantallas más grandes */
+@media (min-width: 1080px) {
+    .avatar {
+        max-width: 450px;
+        margin-left: 42%;
+        margin-top: -17%;
+
+    }
+}
+
+/* Avatar Para laptops o pantallas medianas */
+@media (max-width: 1608px) and (min-width: 768px) {
+   
+   
+    .general{
+        background-color: #0e1216; /* Color de fondo para la "hoja" */
+        border-radius: 10px; /* Bordes redondeados */
+        padding: 250px;
+        width: 800px;
+        left: 16vh;
+        max-width: 1000px;
+        height: 400vh;
+        margin: 20px;
+        position: absolute;
+        box-shadow: 0px 0 50px 10px rgba(27, 27, 27); /* Sombra para darle el efecto de "hoja" */
+    }
+
+
+    .contenido{
+        background-color: #6fa1cd;
+        width: 700px;
+        height: 400px;
+        position: absolute;
+        display: flex;
+        left: 90px;
+        bottom: 250px;
+    }
+    .contenido iframe{
+        width: 700px;
+        height: 100%;
+    }
+    
+    .description{
+        width: 500px;
+        height: 400px;
+        position: absolute;
+        margin-left: 550px;
+        bottom: 250px ;
+        
+    
+    }
+
+    .description:hover{
+        border-radius: 10px;
+        cursor: pointer;
+        transform: scale(1.02);
+        box-shadow: 0px 0 20px 0px rgb(212, 163, 163); /* Sombra para darle el efecto de "hoja" */
+    }
+
+    .contenido:hover{
+        border-radius: 10px;
+        cursor: pointer;
+        transform: scale(1.02);
+        box-shadow: 0px 0 20px 0px rgb(212, 163, 163); /* Sombra para darle el efecto de "hoja" */
+    }
+
+    .description .sinopsis {
+        color: #e20b0b;
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 50px;
+    
+    
+    
+    }
+    .sinopsis h2{
+        font-size: 40px;
+        margin-top: -35px;
+    }
+    
+    
+    .texto-2{
+    
+        margin-left: 6%;
+        color: gray;
+        position: absolute;
+        width: 450px;
+        margin-top: 80px;
+        height: 170px;
+        
+    
+    }
+    .texto-2 p {
+        margin-right: 50px;
+    }
+    
+
+
+}
+
+/* Avatar Para pantallas pequeñas (tablets y móviles) */
+@media (max-width: 767px) {
+    .avatar {
+        max-width: 200px;
+        margin-left: 25%;
+        margin-top: 0;
+    }
+}
